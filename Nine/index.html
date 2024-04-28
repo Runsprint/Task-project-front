@@ -7,19 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>nine</h1>
-    <a href="../Ten/index.html">for ten</a>
+
     <main>
+      <div class="for-flex">
         <div class="stable-div">
-          <img src="../src/3815154af6141327159efc68dc8ecbd2.png">
-          <h1>Ihre persönliche Küchen-Offerte</h1>
-          <p>Fill out the form below and we will call you back!</p>
+          <h1 class="title">Ihre persönliche Küchen-Offerte</h1>
+          <p class="title-p">Fill out the form below and we will call you back!</p>
         </div> 
-  
+
+        <div class="content-div">
         <div>
-          <p>1 Frage von 5</p>
-          <input type="range" min="25" max="100"/>
-          <h2>Fill out the form below and we will call you back!</h2>
+          <p  class="number-answers"><span>1</span> Frage von 5</p>
+          <input type="range" class="input" id="slider" min="20" max="100" >
+          <h3 class="question">Welchen Küchenstil wünschen Sie?</h3>
         </div>
         <div>
   
@@ -34,11 +34,15 @@
          
          
          
-         <div>
-            <button>&#8592; Back </button>
-            <button>Next &#8594;</button>
-          </div>
+         <div class="box5">
+          <a href="../Eight/index.html"><button class="back-button">&#8592; Back </button></a>
+          <a href="../Ten/index.html"><button class="next-button" id="next-button1" >next &#8594;</button></a> 
+          </a>
+          
         </div>
+        </div>
+        </div>
+      </div>
       </main>
       <script type="module" src="../main.js"></script>
 </body>
