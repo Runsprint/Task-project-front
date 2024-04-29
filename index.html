@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet"  href="style.css">
     <title>App</title>
-    <script src="./main.js" defer></script>
+    <script type="module" src="./main.js" defer></script>
   </head>
   <body>
     <main>
@@ -20,30 +20,48 @@
       <div class="content-div">
         <div class="input-div">
           <p  class="number-answers"><span>1</span> Frage von 5</p>
-          <input type="range" class="input" id="slider" min="20" max="100" >
+          <input type="range" class="input" id="slider" min="20" max="100" step="1" >
 
           <h3 class="question">Welchen Küchenstil wünschen Sie?</h3>
       </div>
       <div class="for-grid">
+
           <div class="box1">
-            <img src="./src/Rectangle 4367.svg">
-            <svg class="pwichka" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="22.5004" cy="22.5" r="21.6" fill="#F6F6F6"/><circle cx="22.5" cy="22.5" r="18" fill="#F6F6F6"/><circle cx="22.5" cy="22.5" r="17.5" stroke="#202020" stroke-opacity="0.7"/><path d="M20.1908 25.29L17.1884 22.2876L16.166 23.3028L20.1908 27.3276L28.8308 18.6876L27.8156 17.6724L20.1908 25.29Z" fill="#202020" fill-opacity="0.7"/></svg>
-            <p class="pic-text">Klassisch</p>
+            <!-- <img src="./src/Rectangle 4367.svg" > -->
+            <div class="out pwichka">
+              <label class="inside">
+                <input type="checkbox" class="checkbox" id="1">
+              </label>
+            </div>
+            <label class="pic-text" >Klassisch</label>
           </div>
+
           <div class="box2">
-            <img src="./src/Rectangle 4367.svg">
-            <svg class="pwichka" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="22.5004" cy="22.5" r="21.6" fill="#F6F6F6"/><circle cx="22.5" cy="22.5" r="18" fill="#F6F6F6"/><circle cx="22.5" cy="22.5" r="17.5" stroke="#202020" stroke-opacity="0.7"/><path d="M20.1908 25.29L17.1884 22.2876L16.166 23.3028L20.1908 27.3276L28.8308 18.6876L27.8156 17.6724L20.1908 25.29Z" fill="#202020" fill-opacity="0.7"/></svg>
-            <p class="pic-text">Modern</p>
+            <!-- <img src="./src/Rectangle 4367.svg" > -->
+            <div class="out pwichka">
+              <label class="inside">
+               <input type="checkbox" class="checkbox" id="2" />
+              </label>
+            </div>
+            <label class="pic-text" >Modern</label>
           </div>
           <div class="box3">
-            <img src="./src/Rectangle 4367.svg">
-            <svg class="pwichka" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="22.5004" cy="22.5" r="21.6" fill="#F6F6F6"/><circle cx="22.5" cy="22.5" r="18" fill="#F6F6F6"/><circle cx="22.5" cy="22.5" r="17.5" stroke="#202020" stroke-opacity="0.7"/><path d="M20.1908 25.29L17.1884 22.2876L16.166 23.3028L20.1908 27.3276L28.8308 18.6876L27.8156 17.6724L20.1908 25.29Z" fill="#202020" fill-opacity="0.7"/></svg>
-            <p class="pic-text">Landhaus-Stil</p>
+            <!-- <img src="./src/Rectangle 4367.svg"> -->
+            <div class="out pwichka">
+              <label class="inside" >
+                <input type="checkbox" class="checkbox" id="3" />
+              </label>
+            </div>
+            <label class="pic-text">Landhaus-Stil</label>
           </div> 
           <div class="box4">
-            <img src="./src/Rectangle 4367.svg">
-            <svg class="pwichka" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="22.5004" cy="22.5" r="21.6" fill="#F6F6F6"/><circle cx="22.5" cy="22.5" r="18" fill="#F6F6F6"/><circle cx="22.5" cy="22.5" r="17.5" stroke="#202020" stroke-opacity="0.7"/><path d="M20.1908 25.29L17.1884 22.2876L16.166 23.3028L20.1908 27.3276L28.8308 18.6876L27.8156 17.6724L20.1908 25.29Z" fill="#202020" fill-opacity="0.7"/></svg>
-            <p  class="pic-text">Weiss Nicht</p>
+            <!-- <img src="./src/Rectangle 4367.svg"> -->
+            <div class="out pwichka">
+              <label class="inside">
+                <input type="checkbox" class="checkbox" id="4"/>
+              </label>
+            </div>
+            <label class="pic-text">Weiss Nicht</label>
           </div> 
         
          </div>
