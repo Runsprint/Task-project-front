@@ -5,6 +5,42 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    height: 2000px; /* Adjust this height based on your content */
+  }
+  .content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .icon {
+    font-size: 24px;
+    color: green;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: green;
+    transition: width 0.5s;
+  }
+
+
 .stable-div{
     width: 730px;
     height: 964px;
@@ -69,29 +105,30 @@
 }
 .box1,.box2,.box3,.box4{
     width: 280px;
-    height: 220px;
+    height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 3px;
+ 
     background-image: url(./src/Rectangle\ 4367.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .boxpage2,.boxpage3{
     width: 134px;
     height: 324px;
     background-image: url(./src/Rectangle\ 4367.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px;
+
 }
 .box5,.box5page2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 3px;
+
 }
 .zip-box{
     width: 401px;
@@ -271,7 +308,7 @@
     height: 36px;
     border-radius: 50px;
     border: 1px solid #202020B2;
-    background-image: url(./src/ggg.jpeg);
+    background-image: url();
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -442,5 +479,7 @@
         height: 334px;
     }
   }
+
+  
 
   
