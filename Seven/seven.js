@@ -1,4 +1,3 @@
-//the first page
 const check1 = document.getElementById('1');
 const check2 = document.getElementById('2');
 const check3 = document.getElementById('3');
@@ -20,9 +19,9 @@ const inside3= document.querySelector('.inside3')
 const inside4 = document.querySelector('.inside4')
 //es ori imistvis aris rom range gavzardot 
 const insidebox = document.querySelectorAll('.inside')
-const input1 = document.querySelector('.input1')
-input1.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 30%, #fff 15%, #fff 10%)"
+const input7 = document.querySelector('.input7')
 
+input7.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 79%, #fff 15%, #fff 10%)"
 
 function handleClick(event) {
     let clickedId = event.target.getAttribute('id');
@@ -52,7 +51,7 @@ function handleClick(event) {
         inside2.style.background="white"
         inside4.style.border="flex"
         inside4.style.background="white"  
-        input1.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 45%, #fff 15%, #fff 10%)"
+        input7.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 100%, #fff 15%, #fff 10%)"
     }else if(clickedId === '2'){
         box2.style.border = '3px solid #1FD69F';
         box1.style.border = '0';
@@ -66,7 +65,7 @@ function handleClick(event) {
         inside4.style.background="white"
         inside1.style.border="flex"
         inside1.style.background="white"
-        input1.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 45%, #fff 15%, #fff 10%)"
+        input7.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 100%, #fff 15%, #fff 10%)"
     }else if(clickedId === '3'){
         box3.style.border = '3px solid #1FD69F';
         box2.style.border = '0px';
@@ -80,7 +79,7 @@ function handleClick(event) {
         inside2.style.background="white"
         inside1.style.border="flex"
         inside1.style.background="white"
-        input1.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 45%, #fff 15%, #fff 10%)"
+        input7.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 100%, #fff 15%, #fff 10%)"
     }else if( clickedId === "4"){
         box4.style.border = '3px solid #1FD69F';
         box2.style.border = '0px';
@@ -94,16 +93,6 @@ function handleClick(event) {
         inside2.style.background="white"
         inside1.style.border="flex"
         inside1.style.background="white"
-        input1.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 45%, #fff 15%, #fff 10%)"
+        input7.style.background= "linear-gradient(to right, #2CB183 5%, #2CB183 100%, #fff 15%, #fff 10%)"
     }
 }
-
-
-
-
-
-
-  
-  
-
-  

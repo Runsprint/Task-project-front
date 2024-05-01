@@ -24,6 +24,7 @@ body {
     opacity: 0;
     transition: opacity 0.5s;
   }
+ 
   .icon {
     font-size: 24px;
     color: green;
@@ -116,7 +117,7 @@ body {
     background-position: center;
 }
 
-.boxpage2,.boxpage3{
+.box6,.box7,.box8,.box9{
     width: 134px;
     height: 324px;
     background-image: url(./src/Rectangle\ 4367.svg);
@@ -139,10 +140,16 @@ body {
     margin-top: 41px;
     align-items: flex-start;
 }
-.boxpage3{
-    width: 179px;
+.box6,.box7,.box8,.box9,.box10,.box11,.box12{
+    
     height: 384px;
     border: 3px;
+}
+.box10,.box11,.box12{
+    width: 179px;
+    background-image: url(./src/Rectangle\ 4367.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .button-div{
     flex-direction: row
@@ -226,7 +233,7 @@ body {
     flex-direction: column;
     gap: 30px;
     font-family: "Plus Jakarta Sans";
-    justify-content: center;
+    justify-content: center; 
 }
 .number-answers{
     color:#2CB183;
@@ -259,41 +266,67 @@ body {
     color: #20202080;
     opacity: 70%;
 }
+.text-small{
+    color:#2CB183;
+}
 .small-span{
     color: red;
 }
 .span-zip{
     color:rgb(19, 18, 18);
 }
-.input{
+.input1,.input2,.input3,.input7{
     width: 580px;
-
-}
-.input-zip{
-    width: 398px;
-    background-color: #ffffff;
     border: 1px solid #2020201A;
+}
+.input1-zip,.input2-zip,.input3-zip,.input7-zip{
+    width: 398px;
+    border: 3px solid #2020201A;
     height: 50px;
 }
-.input {
+.input1,.input2,.input3,.input7 {
     -webkit-appearance: none;
-    width: 100px;
     height: 10px;
-    background: linear-gradient(to right, #2CB183 0%, #2CB183 25%, #fff 25%, #fff 100%);
-    border-radius: 50px;
+    background: linear-gradient(to right, #2CB183 25%, #fff 25%, #fff 10%);
+    border-radius: 10px;   
   }
-  
-  .input::-webkit-slider-thumb {
+  .input1::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 0; /* Hide the slider thumb */
+    height: 0;
+  }
+  .input7::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 0; /* Hide the slider thumb */
+    height: 0;
+  }
+  .input2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0; /* Hide the slider thumb */
+    height: 0;
+  }
+  .input3::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 0; /* Hide the slider thumb */
     height: 0;
   }
   
-  .input::-moz-range-thumb {
+  .input1::-moz-range-thumb{
     width: 0; /* Hide the slider thumb */
     height: 0;
   }
-
+  .input7::-moz-range-thumb{
+    width: 0; /* Hide the slider thumb */
+    height: 0;
+  }
+  .input3::-moz-range-thumb {
+    width: 0; /* Hide the slider thumb */
+    height: 0;
+  }
+  .input2::-moz-range-thumb {
+    width: 0; /* Hide the slider thumb */
+    height: 0;
+  }
 
  .out{
     width: 47px;
@@ -325,7 +358,7 @@ body {
     z-index: -1;
   } 
   @media(max-width: 365px){
-    .box1,.box2,.box3,.box4,.boxpage2{
+    .box1,.box2,.box3,.box4,.box6,.box7,.box8,.box9,.box10{
         width: 160px;
         height: 140px;
         gap: 5px;
@@ -333,12 +366,12 @@ body {
     }
     .for-grid2{
         display: grid;
-    grid-template-columns: auto auto; 
-    grid-template-rows: auto auto; 
-    row-gap: 10px; 
-    gap: 40px;
+        grid-template-columns: auto auto; 
+        grid-template-rows: auto auto; 
+        row-gap: 10px; 
+        gap: 40px;
     }
-    .boxpage3{
+    .box6,.box7,.box8,.box10,.box11,.box12{
         width: 104px;
         height: 336px;
     }
@@ -379,7 +412,7 @@ body {
     .stable-div{
         display: none;
     }
-    .box1,.box2,.box3,.box4,.boxpage2{
+    .box1,.box2,.box3,.box4,.box6,.box7,.box8,.box9{
         width: 160px;
         height: 140px;
         gap: 5px;
@@ -389,6 +422,9 @@ body {
         align-items: center;
         justify-content: center;
         border: 3px;
+    }
+    .input1,.input2,.input3,.input7{
+        width: 328px;
     }
     .for-flex{
         justify-content: center;
@@ -406,7 +442,7 @@ body {
     align-items: center;
     justify-content: center;
     }
-    .boxpage3{
+    .box10,.box11,.box12{
         width: 104px;
         height: 336px;
     }
@@ -467,17 +503,21 @@ body {
       .thanks-content{
         margin-left: 0px;
       }
+      .input{
+        width: 345px;
+      }
   }
   @media(min-width:769px){
     .pwichka2,.pic-text2{
-        top: 299px;
-        left: 43px;
+        top: 360px;
+        left: 65px;
         font-size: 14px;
     }
     .zip-img{
         width: 401px;
         height: 334px;
     }
+   
   }
 
   
